@@ -14,7 +14,7 @@ deploy:
     context: minnaniju/DEV
     type: statefulset
     replicas: 1
-    port:
+    #port:
     - 80
     - 9270
 volumes:
@@ -32,5 +32,5 @@ properties:
     JMETER_THREAD_COUNT: 50
     JMETER_RAMP_TIME: 100
     JMETER_THREAD_DELAY: 0
-    JMETER_APP_PROTOCOL: http
+    JMETER_APP_PROTOCOL: https
     revision: 25
