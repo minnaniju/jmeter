@@ -24,7 +24,7 @@ volumes:
     size: 10Gi
 
 properties:
-    JMETER_APP_HOST: springboot-web-pgsql-0-4
+    JMETER_APP_HOST: md-springboot-web-pgsql.openebs-staging.32d430c5.lowtouch.cloud
     JMETER_APP_PORT: 8080
     TEST_NAME: ACCOUNTS_READ
     TESTPLAN_FILENAME: SpringBoot.jmx
