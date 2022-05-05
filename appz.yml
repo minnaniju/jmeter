@@ -1,7 +1,7 @@
 app:
     name: JMETER
     code: jmeter
-    notify: svengathattil@ecloudcontrol.com
+    notify: mniju@ecloudcontrol.com
 
 build:
     version: 0.1
@@ -11,7 +11,7 @@ build:
     image_template: jmeter-5.3
 
 deploy:
-    context: sidharth-v/DEV
+    context: minnaniju/DEV
     type: statefulset
     replicas: 1
     port:
