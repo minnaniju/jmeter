@@ -15,8 +15,8 @@ deploy:
     type: statefulset
     replicas: 1
     #port:
-    - 80
-    - 9270
+    #-80
+    #-9270
 volumes:
   - claim: jmeter-data
     class: microk8s-hostpath
