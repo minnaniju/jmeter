@@ -26,7 +26,7 @@ volumes:
 
 properties:
     JMETER_APP_HOST: neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud
-    JMETER_APP_PORT: 8080
+    JMETER_APP_PORT: 443
     TEST_NAME: ACCOUNTS_READ
     TESTPLAN_FILENAME: SpringBoot.jmx
     JMETER_LOOP_COUNT: 1000
