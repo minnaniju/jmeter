@@ -14,9 +14,8 @@ deploy:
     context: minnaniju/DEV
     type: statefulset
     replicas: 1
-    #port:
-    #-80
-    #-9270
+    port:
+    - 80
     
 volumes:
   - claim: jmeter-data
@@ -29,8 +28,8 @@ properties:
     JMETER_APP_HOST: neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud
     JMETER_APP_PORT: 443
     TEST_NAME: ACCOUNTS_READ
-    TESTPLAN_FILENAME: SpringBoot.jmx
-    JMETER_LOOP_COUNT: 1000
+    TESTPLAN_FILENAME: Springboot-PSQL-v4.jmx
+    JMETER_LOOP_COUNT: 100
     JMETER_THREAD_COUNT: 50
     JMETER_RAMP_TIME: 100
     JMETER_THREAD_DELAY: 0
