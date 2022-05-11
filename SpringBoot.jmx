@@ -56,7 +56,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="BASE_URL_1" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_1</stringProp>
-            <stringProp name="Argument.value">neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud</stringProp>
+            <stringProp name="Argument.value">md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="thinktime" elementType="Argument">
@@ -110,7 +110,7 @@
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud/" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud/" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -156,7 +156,7 @@
             <boolProp name="TransactionController.parent">true</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud/account/add" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud/account/add" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="name" elementType="HTTPArgument">
@@ -250,7 +250,7 @@
             <boolProp name="TransactionController.parent">true</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud/account/edit" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud/account/edit" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="name" elementType="HTTPArgument">
@@ -331,7 +331,7 @@
             <boolProp name="TransactionController.parent">true</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud/account/delete" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud/account/delete" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="accountid" elementType="HTTPArgument">
