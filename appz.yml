@@ -25,10 +25,10 @@ volumes:
     size: 10Gi
 
 properties:
-    JMETER_APP_HOST: md-jmeter-0-1.openebs-staging.32d430c5.lowtouch.cloud
+    JMETER_APP_HOST: neevhikeqa-dev-springboot-web-pgsql-0-4.038ecc66.lowtouch.cloud
     JMETER_APP_PORT: 443
     TEST_NAME: ACCOUNTS_READ
-    TESTPLAN_FILENAME: SpringBoot.jmx
+    TESTPLAN_FILENAME: Springboot-PSQL-v4.jmx
     JMETER_LOOP_COUNT: 100
     JMETER_THREAD_COUNT: 50
     JMETER_RAMP_TIME: 100
