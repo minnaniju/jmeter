@@ -20,7 +20,6 @@ deploy:
 volumes:
   - claim: jmeter-data
     class: microk8s-hostpath
-    matchLabels: false
     mount: /appz/log/results
     name: data
     size: 10Gi
