@@ -35,4 +35,4 @@ properties:
     JMETER_THREAD_DELAY: 0
     TEST_INTERVAL: 2
     JMETER_APP_PROTOCOL: https
-    revision: 39
+    revision: 40
