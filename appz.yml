@@ -37,4 +37,4 @@ properties:
     JMETER_THREAD_DURATION: 1800
     TEST_INTERVAL: 30
     JMETER_APP_PROTOCOL: https
-    revision: 58
+    revision: 59
